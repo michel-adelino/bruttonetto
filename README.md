@@ -1,7 +1,5 @@
 # bruttonetto.tools
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/techinz/bruttonetto/blob/main/LICENSE)
-
 ## German Brutto-Netto Income Calculator with Social Contributions and Tax Deductions
 
 A tool for calculating net income from gross earnings in Germany, accounting for all relevant social contributions and tax deductions. Currently only for freelancers and self-employed professionals (selbständig), with planned expansion to include employed individuals.
@@ -10,8 +8,6 @@ A tool for calculating net income from gross earnings in Germany, accounting for
 <summary><b>Project Background</b></summary>
 This tool was developed to address limitations in existing German tax calculators, which often include paywalls, advertisements, or lack comprehensive features for self-employed individuals. bruttonetto.tools aims to provide a transparent, accessible solution that accurately represents the complexities of the German tax system for freelancers and business owners.
 </details>  
-
-**💻 Live Demo**: [bruttonetto.tools](https://bruttonetto.tools)
 
 
 ## 📸 Demonstration
@@ -129,7 +125,3 @@ This calculator is provided for informational purposes only and does not substit
 ## 👨‍💻 Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to help improve the project.
-
----
-
-<p align="center">© 2025 bruttonetto.tools - Free and open tax calculation for Germany</p>
