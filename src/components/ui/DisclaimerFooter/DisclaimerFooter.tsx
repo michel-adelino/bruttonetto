@@ -16,7 +16,6 @@ function DisclaimerFooter() {
                 {t("Disclaimer: Keine offizielle Berechnung. Nur zur groben Orientierung.")}
             </span>
             <a
-                href="mailto:contact@techinz.dev"
                 className={styles.bugReportLink}
                 title={t("Fehler melden")}
             >

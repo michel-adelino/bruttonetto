@@ -14,7 +14,6 @@ import { LanguageProvider } from './context/LanguageContext';
 import { useStepNavigation } from './hooks/useStepNavigation';
 import { MoonIcon, SunIcon } from './components/ui/icons';
 import './i18n/i18n';
-import GithubLink from './components/ui/GithubLink/GithubLink';
 import type { TabType } from './types/components/ui/tabNavigation/tabNavigation';
 import type { SocialContributionsData } from './types/components/selbstaendig/socialContributions/socialContributions';
 import type { Deductions } from './types/components/selbstaendig/taxDeductions/taxDeductions';
@@ -135,7 +134,7 @@ function AppContent() {
             )}
           </>
         ) : (
-          <ComingSoon text={t('Der Steuerrechner für Angestellte ist in Entwicklung. Da ich meine Entwicklungsressourcen effizient einsetzen möchte, würde ich gerne wissen, wie hoch das Interesse an dieser Funktion ist. Falls Sie diese Funktion dringend benötigen oder Vorschläge haben, kontaktieren Sie mich bitte unter contact@techinz.dev.')} />
+          <ComingSoon text={t('Der Steuerrechner für Angestellte ist in Entwicklung.')} />
         )}
       </main>
 
@@ -152,7 +151,6 @@ function AppContent() {
         </div>
       )}
 
-      <GithubLink />
       <DisclaimerFooter />
     </div>
   );

@@ -12,7 +12,7 @@ function GithubLink() {
 
     return (
         <a
-            href="https://github.com/techinz/bruttonetto"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View source code on GitHub"
